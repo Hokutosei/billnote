@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Year:</b>
+  <%= @month.year %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @month.user_id %>
+</p>
+
+<p>
+  <b>Mydebt:</b>
+  <%= @month.mydebt_id %>
+</p>
+
+<p>
+  <b>Mybill:</b>
+  <%= @month.mybill_id %>
+</p>
+
+<p>
+  <b>Year:</b>
+  <%= @month.year_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_month_path(@month) %> |
+<%= link_to 'Back', months_path %>

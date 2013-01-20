@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @mydebt.title %>
+</p>
+
+<p>
+  <b>Amount:</b>
+  <%= @mydebt.amount %>
+</p>
+
+<p>
+  <b>Payment:</b>
+  <%= @mydebt.payment %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @mydebt.user_id %>
+</p>
+
+<p>
+  <b>Confirmation:</b>
+  <%= @mydebt.confirmation %>
+</p>
+
+
+<%= link_to 'Edit', edit_mydebt_path(@mydebt) %> |
+<%= link_to 'Back', mydebts_path %>

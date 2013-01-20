@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  year: MyString
+  user_id: 1
+  mydebt_id: 1
+  mybill_id: 1
+  year_id: 1
+
+two:
+  year: MyString
+  user_id: 1
+  mydebt_id: 1
+  mybill_id: 1
+  year_id: 1

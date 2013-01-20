@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @mybill.title %>
+</p>
+
+<p>
+  <b>Amount:</b>
+  <%= @mybill.amount %>
+</p>
+
+<p>
+  <b>Payment:</b>
+  <%= @mybill.payment %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @mybill.user_id %>
+</p>
+
+<p>
+  <b>Confirmation:</b>
+  <%= @mybill.confirmation %>
+</p>
+
+
+<%= link_to 'Edit', edit_mybill_path(@mybill) %> |
+<%= link_to 'Back', mybills_path %>

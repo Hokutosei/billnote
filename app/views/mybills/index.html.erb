@@ -1,0 +1,31 @@
+<h1>Listing mybills</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Amount</th>
+    <th>Payment</th>
+    <th>User</th>
+    <th>Confirmation</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @mybills.each do |mybill| %>
+  <tr>
+    <td><%= mybill.title %></td>
+    <td><%= mybill.amount %></td>
+    <td><%= mybill.payment %></td>
+    <td><%= mybill.user_id %></td>
+    <td><%= mybill.confirmation %></td>
+    <td><%= link_to 'Show', mybill %></td>
+    <td><%= link_to 'Edit', edit_mybill_path(mybill) %></td>
+    <td><%= link_to 'Destroy', mybill, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Mybill', new_mybill_path %>

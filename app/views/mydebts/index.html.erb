@@ -1,0 +1,31 @@
+<h1>Listing mydebts</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Amount</th>
+    <th>Payment</th>
+    <th>User</th>
+    <th>Confirmation</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @mydebts.each do |mydebt| %>
+  <tr>
+    <td><%= mydebt.title %></td>
+    <td><%= mydebt.amount %></td>
+    <td><%= mydebt.payment %></td>
+    <td><%= mydebt.user_id %></td>
+    <td><%= mydebt.confirmation %></td>
+    <td><%= link_to 'Show', mydebt %></td>
+    <td><%= link_to 'Edit', edit_mydebt_path(mydebt) %></td>
+    <td><%= link_to 'Destroy', mydebt, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Mydebt', new_mydebt_path %>
