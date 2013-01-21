@@ -11,13 +11,11 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130120154714) do
+ActiveRecord::Schema.define(:version => 20130121163826) do
 
   create_table "months", :force => true do |t|
     t.string   "year"
     t.integer  "user_id"
-    t.integer  "mydebt_id"
-    t.integer  "mybill_id"
     t.integer  "year_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
@@ -52,12 +50,10 @@ ActiveRecord::Schema.define(:version => 20130120154714) do
   end
 
   create_table "years", :force => true do |t|
-    t.string   "year"
     t.integer  "user_id"
-    t.integer  "mybill_id"
-    t.integer  "mydebt_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.string   "year_name"
   end
 
 end

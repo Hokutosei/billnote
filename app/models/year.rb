@@ -1,3 +1,3 @@
 class Year < ActiveRecord::Base
-  attr_accessible :mybill_id, :mydebt_id, :user_id, :year
+  attr_accessible :user_id, :year_name
 end
