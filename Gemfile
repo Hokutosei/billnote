@@ -33,6 +33,10 @@ group :assets do
 end
 
 
+gem 'rails3-generators'
+gem 'devise'
+#gem "authlogic", :git => "git://github.com/binarylogic/authlogic.git"
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

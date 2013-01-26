@@ -14,5 +14,32 @@
 
 
 .main_wrapper {
+    min-height: 100%;
     background: #d3d3d3;
+
+}
+.main_header {
+    background:#f3f3f3;
+    height:100px;
+}
+
+.accessibility {
+    background: #000;
+    text-align: center;
+    color: #f5f5f5;
+}
+.vertical_navigation {
+    background: #ebebeb;
+    margin-left: 0 !important;
+    padding-left: 20px;
+}
+ul.vt_nav_items {
+  list-style-type: none;
+    margin-left: 0;
+}
+
+.main_content {
+    background: #fafafa;
+    width: 70.93333% !important;
+    margin-left: 0 !important;
 }
