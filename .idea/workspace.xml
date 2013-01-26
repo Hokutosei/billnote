@@ -67,7 +67,7 @@
       <file leaf-file-name="20130126174440_add_devise_to_users.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db/migrate/20130126174440_add_devise_to_users.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="78" selection-start="636" selection-end="636" vertical-scroll-proportion="0.3568075">
+            <state line="40" column="61" selection-start="1305" selection-end="1305" vertical-scroll-proportion="0.73239434">
               <folding />
             </state>
           </provider>
@@ -132,14 +132,14 @@
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20130126174440_add_devise_to_users.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_vertical_navigation.html.erb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130126174440_add_devise_to_users.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="909" />
+    <option name="x" value="750" />
     <option name="y" value="22" />
     <option name="width" value="1358" />
     <option name="height" value="1000" />
@@ -610,7 +610,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="909" y="22" width="1358" height="1000" extended-state="0" />
+    <frame x="750" y="22" width="1358" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -794,7 +794,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20130126174440_add_devise_to_users.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="78" selection-start="636" selection-end="636" vertical-scroll-proportion="0.3568075">
+        <state line="40" column="61" selection-start="1305" selection-end="1305" vertical-scroll-proportion="0.73239434">
           <folding />
         </state>
       </provider>
