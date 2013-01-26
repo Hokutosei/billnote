@@ -1,11 +1,14 @@
 Myaccount::Application.routes.draw do
+  root :to => "home#index"
+  get "home/index"
+
   resources :months
 
 
   resources :years
 
 
-  root :to => "users#index"
+  #root :to => "users#index"
 
   resources :mydebts
 

@@ -11,3 +11,8 @@
  *= require_self
  *= require_tree .
  */
+
+
+.main_wrapper {
+    background: #d3d3d3;
+}
