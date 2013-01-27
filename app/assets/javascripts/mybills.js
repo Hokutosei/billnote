@@ -5,6 +5,7 @@
 jQuery(document).ready(function(){
     $('#mybill_due_date').datetimepicker({
         controlType: 'select',
-        timeFormat: 'yy-mm-dd'
+        dateFormat:'yy-m-d',
+        timeFormat: 'hh:mm'
     });
 })
