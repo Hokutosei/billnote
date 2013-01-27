@@ -40,7 +40,7 @@ class MybillsController < ApplicationController
   # POST /mybills
   # POST /mybills.json
   def create
-    @mybill = Mybill.new(params[:mybill])
+    @mybill = Mybill.new(params[:mybill].merge(:user_id => current_user.id))
 
     respond_to do |format|
       if @mybill.save

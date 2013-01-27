@@ -11,23 +11,30 @@
 <div class="container-fluid">
   <div class="row-fluid">
     <div class="span10 offset1 main_wrapper">
-      <!-- HEADER -->
+      <!-- HEADER
       <div class="row-fluid">
         <div class="span12 main_header">
           Header
         </div>
-      </div>
+      </div>      -->
       <!-- BODY -->
       <div class="row-fluid">
+
         <div class="span1 accessibility">
           accessible
         </div>
+
         <div class="span3 vertical_navigation">
           <%= render 'layouts/vertical_navigation' %>
         </div>
+
         <div class="span8 main_content">
+          <%= render 'layouts/content_nav_bar' %>
+
           <%= yield %>
+
         </div>
+
       </div>
 
     </div>

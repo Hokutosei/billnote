@@ -1,0 +1,24 @@
+@mixin jp_border_radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin shadow_01($distance, $blur, $opacity) {
+  -webkit-box-shadow: 0px $distance $blur rgba(50, 50, 50, $opacity);
+  -moz-box-shadow:    0px $distance $blur rgba(50, 50, 50, $opacity);
+  box-shadow:         0px $distance $blur rgba(50, 50, 50, $opacity);
+}
+
+#box {
+  position: relative;
+  width: 100%;
+  background: #ddd;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  padding: 2em 1.5em;
+  color: rgba(0,0,0, .8);
+  text-shadow: 0 1px 0 #fff;
+  line-height: 1.5;
+  margin: 10px auto;
+}

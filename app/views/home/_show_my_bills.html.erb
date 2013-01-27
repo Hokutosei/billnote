@@ -1,0 +1,13 @@
+<ul class="main_content_bill_list row-fluid">
+  <div class="span11">
+    <% @mybills.each do |mybill| %>
+        <div class="row-fluid">
+          <li class="bill_item span12" id="box">
+            this: <%= mybill.title %>
+          </li>
+
+        </div>
+    <% end %>
+
+  </div>
+</ul>

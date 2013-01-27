@@ -17,8 +17,14 @@ Myaccount::Application.routes.draw do
 
   resources :mybills
 
+  match '/showmybills', :controller => 'home', :action => 'showmybills'
+  match '/showhome', :controller => 'home', :action => 'home'
+  #resources :home
 
-  resources :users
+
+  resources :users do
+    resources :mybills
+  end
 
 
   # The priority is based upon order of creation:

@@ -14,12 +14,14 @@
 //= require jquery_ujs
 //= require twitter/bootstrap
 //= require bootstrap
-//= require_tree .
-jQuery(document).ready(function(){
+//= require home
+// require_tree .
+
+//jQuery(document).ready(function(){
     //assign max height
     $(function(){
         var w =$(document).height(), h = $('.main_header').height();
         $('.main_wrapper, .accessibility, .vertical_navigation, .main_content').css({'min-height': w - h})
     })
 
-})
+//#})

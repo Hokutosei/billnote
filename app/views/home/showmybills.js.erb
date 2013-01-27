@@ -1,0 +1,5 @@
+//alert('it works!')
+
+//$('ul.main_content_bill_list')
+$('div.tab_contents').css('opacity', 0)
+$('div.tab_contents').animate({opacity: 1}, 400).html("<%=j render 'show_my_bills' %>")

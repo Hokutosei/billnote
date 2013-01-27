@@ -43,3 +43,15 @@ ul.vt_nav_items {
     width: 70.93333% !important;
     margin-left: 0 !important;
 }
+
+.content_button {
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 97.7% !important;
+    height: 50px;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.tab_contents {
+    min-height: 500px;
+}
