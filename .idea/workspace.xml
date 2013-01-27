@@ -64,15 +64,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.ui.datepicker.css.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p180/gems/jquery-ui-rails-3.0.1/vendor/assets/stylesheets/jquery.ui.datepicker.css.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="85" selection-start="299" selection-end="299" vertical-scroll-proportion="-5.04">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="home.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/home.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -84,13 +75,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mybills.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="mybills.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/mybills.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="29" selection-start="374" selection-end="374" vertical-scroll-proportion="0.13145539">
+            <state line="7" column="29" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jp_variables.css.scss" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/jp_variables.css.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="20" selection-start="108" selection-end="108" vertical-scroll-proportion="0.112676054">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jp_mixins.css.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/jp_mixins.css.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="18" selection-start="694" selection-end="694" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -99,15 +108,6 @@
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less">
           <provider selected="true" editor-type-id="text-editor">
             <state line="15" column="94" selection-start="832" selection-end="832" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="20" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -129,9 +129,7 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/home/_show_my_bills.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/jp_fonts.css.scss" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/jp_variables.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/jp_mixins.css.scss" />
         <option value="$PROJECT_DIR$/db/migrate/20130127145538_add_due_date_to_mybills.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
@@ -139,6 +137,8 @@
         <option value="$PROJECT_DIR$/app/models/mybill.rb" />
         <option value="$PROJECT_DIR$/app/views/mybills/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/mybills.js" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/jp_mixins.css.scss" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/jp_variables.css.scss" />
       </list>
     </option>
   </component>
@@ -826,20 +826,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="36" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/jp_mixins.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="43" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20130120153908_create_mybills.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -938,10 +924,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/mybills.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="29" selection-start="374" selection-end="374" vertical-scroll-proportion="0.13145539">
+        <state line="7" column="29" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/jp_mixins.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="18" selection-start="694" selection-end="694" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/jp_variables.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="20" selection-start="108" selection-end="108" vertical-scroll-proportion="0.112676054">
+          <folding />
         </state>
       </provider>
     </entry>
