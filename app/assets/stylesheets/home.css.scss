@@ -3,6 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 @import "jp_mixins.css.scss";
+@import "jp_variables.css.scss";
 
 
 
@@ -11,10 +12,10 @@ ul.main_content_bill_list {
   padding-top: 20px;
   display: block;
   li.bill_item {
-    border: 1px solid #d3d3d3;
+    min-height: 150px;
     margin-bottom: 20px;
-    padding:5px;
-    @include jp_border_radius(5px);
-    @include shadow_01(5px, 15px, 0.2);
+    padding:8px;
+    @include box2;
+    @include shadow_01(2px, 5px, 0.3);
   }
 }

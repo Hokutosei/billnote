@@ -12,16 +12,22 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery.ui.widget
+//= require jquery.ui.datepicker
 //= require twitter/bootstrap
 //= require bootstrap
 //= require home
+//= require mybills
+//= require jquery-ui-timepicker-addon
 // require_tree .
 
 //jQuery(document).ready(function(){
     //assign max height
     $(function(){
         var w =$(document).height(), h = $('.main_header').height();
-        $('.main_wrapper, .accessibility, .vertical_navigation, .main_content').css({'min-height': w - h})
+        $('.main_wrapper, .accessibility, .vertical_navigation, .main_content').css({'min-height': w - h});
+        //$('#mybill_due_date').datetimepicker();
+
     })
 
 //#})

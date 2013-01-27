@@ -22,10 +22,7 @@ Myaccount::Application.routes.draw do
   #resources :home
 
 
-  resources :users do
-    resources :mybills
-  end
-
+  resources :users
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

@@ -1,3 +1,6 @@
+@import "jp_variables.css.scss";
+@import "jp_fonts.css.scss";
+
 @mixin jp_border_radius($radius) {
   -webkit-border-radius: $radius;
   -moz-border-radius: $radius;
@@ -9,6 +12,25 @@
   -moz-box-shadow:    0px $distance $blur rgba(50, 50, 50, $opacity);
   box-shadow:         0px $distance $blur rgba(50, 50, 50, $opacity);
 }
+
+@mixin box1 {
+  background: $grey;
+  box-shadow: inset 0 0 0 7px rgba(255,255,255,.5);
+  text-shadow: 0 1px 0 #fff;
+}
+@mixin box2 {
+  background-color: #fff;
+  font-family: 'Wire One';
+  font-weight: 400;
+  font-size: 50px;
+  color: $grey2_ce;
+  border-left: 5px solid $border_left;
+  &:hover {
+    color: #fff;
+    background-color: rgba(0, 198, 255, 0.2) ;
+  }
+}
+
 
 #box {
   position: relative;
@@ -22,3 +44,4 @@
   line-height: 1.5;
   margin: 10px auto;
 }
+

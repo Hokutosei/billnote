@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130126174440) do
+ActiveRecord::Schema.define(:version => 20130127145538) do
 
   create_table "months", :force => true do |t|
     t.string   "year"
@@ -29,6 +29,7 @@ ActiveRecord::Schema.define(:version => 20130126174440) do
     t.string   "confirmation"
     t.datetime "created_at",   :null => false
     t.datetime "updated_at",   :null => false
+    t.datetime "due_date"
   end
 
   create_table "mydebts", :force => true do |t|

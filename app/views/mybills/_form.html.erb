@@ -20,17 +20,13 @@
     <%= f.number_field :amount %>
   </div>
   <div class="field">
-    <%= f.label :payment %><br />
-    <%= f.number_field :payment %>
+    <%= f.label :user_id %> <%= current_user.id %> <br />
   </div>
   <div class="field">
-    <%= f.label :user_id %><br />
-    <%= f.number_field :user_id %>
+    <%= f.label :due_date %>:
+    <%= f.text_field :due_date, :id => 'mybill_due_date'%>
   </div>
-  <div class="field">
-    <%= f.label :confirmation %><br />
-    <%= f.text_field :confirmation %>
-  </div>
+
   <div class="actions">
     <%= f.submit %>
   </div>

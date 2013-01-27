@@ -12,6 +12,7 @@ gem 'thin'
 
 
 gem 'jquery-rails'
+gem 'jquery-ui-rails'
 
 
 # Gems used only for assets and not required
