@@ -19,6 +19,7 @@ Myaccount::Application.routes.draw do
 
   match '/showmybills', :controller => 'home', :action => 'showmybills'
   match '/showhome', :controller => 'home', :action => 'home'
+  match '/change_payment/(:id)', :controller => 'home', :action => 'change_payment'
   #resources :home
 
 

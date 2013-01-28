@@ -20,4 +20,11 @@ class HomeController < ApplicationController
     end
   end
 
+  def change_payment
+    @user_item = Mybill.find(params[:id])
+    respond_to do |format|
+      format.js
+    end
+  end
+
 end

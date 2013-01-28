@@ -1,1 +1,28 @@
-this is home
+<% if user_signed_in? %>
+    <table class="my_bill_table table table-bordered table-hover">
+      <caption>myBills</caption>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Amount</th>
+          <th>Due Date</th>
+          <th>Payment</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @mybills.each do |mybill| %>
+            <tr>
+              <td><%= mybill.id%></td>
+              <td><%= mybill.amount%></td>
+              <td><%= mybill.due_date.strftime('%B %d, %Y') if mybill.due_date.present?%></td>
+              <td class="my_payment_<%= mybill.id %>"><%= mybill.payment if mybill.payment.present? %></td>
+              <td><%= link_to "payment", "/change_payment/#{mybill.id}", :action => 'change_payment',
+                              :this_id => mybill.id,
+                              :remote => true, :class => 'btn btn-mini'
+                  %>
+              </td>
+            </tr>
+        <% end %>
+      </tbody>
+    </table>
+<% end %>

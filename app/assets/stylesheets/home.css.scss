@@ -19,3 +19,9 @@ ul.main_content_bill_list {
     @include shadow_01(2px, 5px, 0.3);
   }
 }
+
+table.my_bill_table {
+  width: 90%;
+  margin: 20px auto;
+  text-align: center;
+}
