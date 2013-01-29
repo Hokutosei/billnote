@@ -1,2 +1,10 @@
 //alert("<%#= @user_item.id %>")
-$("td.my_payment_<%= @user_item.id%>").html("payed");
+var my = $("td.my_payment_<%= @user_item.id%>"), cp = $(".change_payment_<%= @user_item.id%>")
+if (my.hasClass('payed')){
+    my.removeClass('payed').html('not payed');
+    cp.text('not payed');
+} else {
+    my.addClass('payed').html('payed');
+    cp.text('payed');
+}
+

@@ -16,10 +16,12 @@
               <td><%= mybill.amount%></td>
               <td><%= mybill.due_date.strftime('%B %d, %Y') if mybill.due_date.present?%></td>
               <td class="my_payment_<%= mybill.id %>"><%= mybill.payment if mybill.payment.present? %></td>
-              <td><%= link_to "payment", "/change_payment/#{mybill.id}", :action => 'change_payment',
-                              :this_id => mybill.id,
-                              :remote => true, :class => 'btn btn-mini'
-                  %>
+              <td>
+                    <%= link_to "payment", "/change_payment/#{mybill.id}", :action => 'change_payment',
+                                                                :class => "btn btn-mini change_payment_#{mybill.id}",
+                                                                :remote => 'true'
+
+                    %>
               </td>
             </tr>
         <% end %>
